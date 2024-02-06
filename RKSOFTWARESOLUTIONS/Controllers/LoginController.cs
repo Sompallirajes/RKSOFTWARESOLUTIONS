@@ -7,7 +7,7 @@ namespace RKSOFTWARESOLUTIONS.Controllers
     {
         private readonly AksharaContext _context;
 
-        // Corrected constructor
+        // Corrected constructors
         public LoginController(AksharaContext context)
         {
             _context = context;
